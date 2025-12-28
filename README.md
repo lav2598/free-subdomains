@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="images/iceberg.svg" alt="Free Subdomains Iceberg" width="200"/>
+  <img src="media/iceberg.svg" alt="Free Subdomains Iceberg" width="200"/>
   <br />
-  <img src="images/free_subdomain.svg" alt="Free Subdomains Text" width="450"/>
+  <img src="media/free_subdomain.svg" alt="Free Subdomains Text" width="450"/>
   <br />
   <hr />
   <h3>A collective list of free subdomains for use on personal sites, open source projects, and more.</h3>
