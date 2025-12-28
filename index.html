@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The ultimate list of free subdomains for developers and creators. No BS, just links.">
+    <title>Free Subdomains | The Ultimate List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <header>
+        <div class="logo">Free<span>Subdomains</span></div>
+        <a href="https://github.com/ghostshanky/free-subdomains" target="_blank" class="github-btn">
+            <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+            Star on GitHub
+        </a>
+    </header>
+
+    <section class="hero">
+        <h1>Claim Your Corner of the <span class="gradient-text">Internet</span>.</h1>
+        <p class="subtitle">A curated, no-nonsense list of platforms offering free subdomains for your next project.</p>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for platforms, extensions, or languages...">
+            <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <main>
+        <!-- Frontend -->
+        <section class="category">
+            <div class="category-header">
+                <h2>Frontend & Static</h2>
+                <span class="badge">Running React, Vue, HTML</span>
+            </div>
+            <div class="grid" id="frontend-grid">
+                <!-- Cards injected here to keep code clean, or hardcoded below -->
+                <div class="card" data-tags="vercel nextjs react">
+                    <div class="card-icon">▲</div>
+                    <h3>Vercel</h3>
+                    <code class="url-preview">project.vercel.app</code>
+                    <p>Best for Next.js. Fast global edge network.</p>
+                    <div class="tags"><span>Free SSL</span><span>CI/CD</span></div>
+                </div>
+                <div class="card" data-tags="netlify vue react">
+                    <div class="card-icon">💠</div>
+                    <h3>Netlify</h3>
+                    <code class="url-preview">project.netlify.app</code>
+                    <p>Great all-rounder. Drag-and-drop deploys.</p>
+                    <div class="tags"><span>100GB BW</span></div>
+                </div>
+                <div class="card" data-tags="cloudflare pages fast">
+                    <div class="card-icon">☁️</div>
+                    <h3>Cloudflare Pages</h3>
+                    <code class="url-preview">project.pages.dev</code>
+                    <p>Fastest performance via Cloudflare Edge.</p>
+                    <div class="tags"><span>Unlimited BW</span></div>
+                </div>
+                <div class="card" data-tags="github pages">
+                    <div class="card-icon">🐱</div>
+                    <h3>GitHub Pages</h3>
+                    <code class="url-preview">user.github.io</code>
+                    <p>Hosts directly from your public repo.</p>
+                    <div class="tags"><span>Open Source</span></div>
+                </div>
+                <div class="card" data-tags="gitlab pages private">
+                    <div class="card-icon">🦊</div>
+                    <h3>GitLab Pages</h3>
+                    <code class="url-preview">group.gitlab.io/project</code>
+                    <p>Supports private repositories for free.</p>
+                    <div class="tags"><span>CI/CD</span></div>
+                </div>
+                <div class="card" data-tags="surge cli">
+                    <div class="card-icon">⚡</div>
+                    <h3>Surge</h3>
+                    <code class="url-preview">project.surge.sh</code>
+                    <p>Simple CLI deployment. No dashboard.</p>
+                    <div class="tags"><span>CLI</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Backend -->
+        <section class="category">
+            <div class="category-header">
+                <h2>Backend & Cloud</h2>
+                <span class="badge">Running Node, Python, Docker</span>
+            </div>
+            <div class="grid" id="backend-grid">
+                <div class="card" data-tags="render node python">
+                    <div class="card-icon">🚀</div>
+                    <h3>Render</h3>
+                    <code class="url-preview">app.onrender.com</code>
+                    <p>Heroku alternative. Sleeps after 15m.</p>
+                    <div class="tags"><span>Full Stack</span></div>
+                </div>
+                <div class="card" data-tags="glitch node learning">
+                    <div class="card-icon">🎏</div>
+                    <h3>Glitch</h3>
+                    <code class="url-preview">project.glitch.me</code>
+                    <p>Collaborative coding playground.</p>
+                    <div class="tags"><span>Prototyping</span></div>
+                </div>
+                <div class="card" data-tags="fly io docker">
+                    <div class="card-icon">🎈</div>
+                    <h3>Fly.io</h3>
+                    <code class="url-preview">app.fly.dev</code>
+                    <p>Run Docker containers near users.</p>
+                    <div class="tags"><span>Docker</span></div>
+                </div>
+                <div class="card" data-tags="deno deploy typescript">
+                    <div class="card-icon">🦕</div>
+                    <h3>Deno Deploy</h3>
+                    <code class="url-preview">project.deno.dev</code>
+                    <p>Optimized for Deno and TypeScript.</p>
+                    <div class="tags"><span>Edge</span></div>
+                </div>
+                <div class="card" data-tags="pythonanywhere python django flask">
+                    <div class="card-icon">🐍</div>
+                    <h3>PythonAnywhere</h3>
+                    <code class="url-preview">user.pythonanywhere.com</code>
+                    <p>Dedicated Python hosting.</p>
+                    <div class="tags"><span>Python</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community -->
+        <section class="category">
+            <div class="category-header">
+                <h2>Community Identity</h2>
+                <span class="badge">Cool custom domains (Open Source)</span>
+            </div>
+            <div class="grid" id="community-grid">
+                <div class="card" data-tags="is-a-dev portfolio identity">
+                    <div class="card-icon">🧑‍💻</div>
+                    <h3>is-a.dev</h3>
+                    <code class="url-preview">name.is-a.dev</code>
+                    <p>Most popular for developer portfolios.</p>
+                    <a href="https://github.com/is-a-dev/register" target="_blank" class="card-link">Claim via GitHub
+                        &rarr;</a>
+                </div>
+                <div class="card" data-tags="js-org javascript">
+                    <div class="card-icon">🟨</div>
+                    <h3>js.org</h3>
+                    <code class="url-preview">lib.js.org</code>
+                    <p>Prestigious domain for JS libraries.</p>
+                    <a href="https://github.com/js-org/js.org" target="_blank" class="card-link">Claim via GitHub
+                        &rarr;</a>
+                </div>
+                <div class="card" data-tags="is-a-co">
+                    <div class="card-icon">🌐</div>
+                    <h3>is-a.co</h3>
+                    <code class="url-preview">name.is-a.co</code>
+                    <p>General purpose identity domain.</p>
+                    <a href="https://github.com/is-a-group/is-a.co" target="_blank" class="card-link">Claim via GitHub
+                        &rarr;</a>
+                </div>
+                <div class="card" data-tags="js-cool china">
+                    <div class="card-icon">😎</div>
+                    <h3>js.cool</h3>
+                    <code class="url-preview">name.js.cool</code>
+                    <p>Popular in open-source community.</p>
+                    <a href="https://github.com/remix-run/react-router" target="_blank" class="card-link">Claim via
+                        GitHub &rarr;</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Builders -->
+        <section class="category">
+            <div class="category-header">
+                <h2>No-Code & Builders</h2>
+                <span class="badge">Drag & Drop</span>
+            </div>
+            <div class="grid" id="builders-grid">
+                <div class="card" data-tags="wix">
+                    <div class="card-icon">W</div>
+                    <h3>Wix</h3>
+                    <code class="url-preview">user.wixsite.com</code>
+                    <p>Rich drag-and-drop builder.</p>
+                </div>
+                <div class="card" data-tags="wordpress blog">
+                    <div class="card-icon">📝</div>
+                    <h3>WordPress</h3>
+                    <code class="url-preview">site.wordpress.com</code>
+                    <p>The standard for blogging.</p>
+                </div>
+                <div class="card" data-tags="carrd portfolio">
+                    <div class="card-icon">📄</div>
+                    <h3>Carrd</h3>
+                    <code class="url-preview">site.carrd.co</code>
+                    <p>Perfect for one-page profiles.</p>
+                </div>
+                <div class="card" data-tags="webflow design">
+                    <div class="card-icon">🎨</div>
+                    <h3>Webflow</h3>
+                    <code class="url-preview">site.webflow.io</code>
+                    <p>Professional design tool.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legacy -->
+        <section class="category">
+            <div class="category-header">
+                <h2>Legacy / Shared</h2>
+                <span class="badge">PHP & MySQL</span>
+            </div>
+            <div class="grid" id="legacy-grid">
+                <div class="card" data-tags="infinityfree php">
+                    <div class="card-icon">♾️</div>
+                    <h3>InfinityFree</h3>
+                    <code class="url-preview">name.rf.gd</code>
+                    <p>Classic cPanel hosting.</p>
+                </div>
+                <div class="card" data-tags="000webhost php">
+                    <div class="card-icon">0</div>
+                    <h3>000webhost</h3>
+                    <code class="url-preview">name.000webhostapp.com</code>
+                    <p>Powered by Hostinger.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Built with help from <a href="https://github.com/ghostshanky" target="_blank">ghostshanky</a>. Open Source.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
