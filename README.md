@@ -24,6 +24,7 @@
 | [**GitHub Pages**](https://pages.github.com) | `user.github.io` | Source must be public (for free tier). |
 | [**GitLab Pages**](https://about.gitlab.com/stages-devops-lifecycle/pages/) | `user.gitlab.io` | Good for private repos. |
 | [**Surge**](https://surge.sh) | `project.surge.sh` | CLI only. Basic HTTP. |
+| [**NeoCities**](https://neocities.org) | `site.neocities.org` | Retro vibes. HTML/CSS only. |
 
 ## 2. Best for Backend & Full Stack
 **Perfect for:** Node.js, Python, Go, Docker, Databases.
@@ -35,6 +36,10 @@
 | [**Fly.io**](https://fly.io) | `app.fly.dev` | Requires credit card. Generous free details. |
 | [**Deno Deploy**](https://deno.com/deploy) | `project.deno.dev` | 100k requests/day. Deno/TS optimized. |
 | [**PythonAnywhere**](https://www.pythonanywhere.com) | `user.pythonanywhere.com` | 1 web app. Limited outgoing requests. |
+| [**Firebase**](https://firebase.google.com) | `project.web.app` | Huge free tier. Google backed. |
+| [**Google App Engine**](https://cloud.google.com/appengine) | `project.appspot.com` | Std env free hours. |
+| [**Azure**](https://azure.microsoft.com) | `app.azurewebsites.net` | Enterprise grade. |
+| [**Replit**](https://replit.com) | `app.replit.app` | Browser IDE. |
 
 ## 3. "Cool" Community Domains
 **Perfect for:** Personal portfolios, identities.  
@@ -59,6 +64,9 @@
 | [**WordPress**](https://wordpress.com) | `site.wordpress.com` | Limited themes/plugins. |
 | [**Carrd**](https://carrd.co) | `site.carrd.co` | 3 sites. "Made with Carrd" branding. |
 | [**Webflow**](https://webflow.com) | `site.webflow.io` | 2 pages max. |
+| [**Weebly**](https://www.weebly.com) | `site.weebly.com` | Drag & drop. |
+| [**Jimdo**](https://www.jimdo.com) | `site.jimdosite.com` | AI builder. |
+| [**Blogger**](https://www.blogger.com) | `blog.blogspot.com` | Classic Google blog. |
 
 ## 5. Legacy / Shared Hosting (PHP & MySQL)
 **Perfect for:** Old-school LAMP stack, WordPress testing.
@@ -66,7 +74,10 @@
 | Platform | Subdomain Format | Notes |
 | :--- | :--- | :--- |
 | [**InfinityFree**](https://www.infinityfree.net) | `name.rf.gd` | Unstable. PHP support. |
-| [**000webhost**](https://www.000webhost.com) | `name.000webhostapp.com` | Watermarks. Sleep mode. |
+| [**InfinityFree**](https://www.infinityfree.net) | `name.rf.gd` | Unstable. PHP support. |
+| [**AwardSpace**](https://www.awardspace.com) | `site.awardspace.net` | Ad-free free tier. |
+| [**ByetHost**](https://byet.host) | `site.byethost.com` | Reseller giant. |
+| [**X10Hosting**](https://x10hosting.com) | `site.x10.mx` | Long standing. |
 
 ---
 
