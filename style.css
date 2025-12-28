@@ -11,6 +11,19 @@
     --font-main: 'Outfit', sans-serif;
 }
 
+[data-theme="light"] {
+    --bg: #ffffff;
+    --card-bg: #f4f4f5;
+    --card-border: #e4e4e7;
+    --text-main: #18181b;
+    --text-muted: #52525b;
+    --accent: #2563eb;
+    --accent-glow: rgba(37, 99, 235, 0.3);
+    /* Invert gradient for light mode subtlety */
+    --gradient-1: #60a5fa;
+    --gradient-2: #e0e7ff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,8 +52,13 @@ body {
 }
 
 @keyframes floating {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(20%, 20%); }
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(20%, 20%);
+    }
 }
 
 /* Header */
@@ -76,8 +94,26 @@ header {
 }
 
 .github-btn:hover {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
+}
+
+.theme-btn {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    color: var(--text-main);
+    padding: 0.5rem;
+    border-radius: 99px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.theme-btn:hover {
+    transform: scale(1.1);
+    border-color: var(--accent);
 }
 
 /* Hero */
@@ -89,7 +125,8 @@ header {
 }
 
 .hero h1 {
-    font-size: 3.5rem; /* Fallback */
+    font-size: 3.5rem;
+    /* Fallback */
     font-size: clamp(2.5rem, 5vw, 4.5rem);
     line-height: 1.1;
     margin-bottom: 1.5rem;
@@ -98,6 +135,7 @@ header {
 
 .gradient-text {
     background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -118,11 +156,12 @@ header {
 .search-container input {
     width: 100%;
     padding: 1rem 1.5rem;
-    padding-right: 3rem; /* Space for icon */
-    background: rgba(255,255,255,0.05);
+    padding-right: 3rem;
+    /* Space for icon */
+    background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 12px;
-    color: white;
+    color: var(--text-main);
     font-size: 1rem;
     font-family: inherit;
     transition: all 0.3s ease;
@@ -131,8 +170,8 @@ header {
 .search-container input:focus {
     outline: none;
     border-color: var(--accent);
-    background: rgba(255,255,255,0.08);
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+    background: var(--bg);
+    box-shadow: 0 0 20px var(--accent-glow);
 }
 
 .search-icon {
@@ -161,7 +200,10 @@ main {
 }
 
 @keyframes fadeInUp {
-    to { opacity: 1; transform: translateY(0); }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .category-header {
@@ -200,62 +242,59 @@ main {
 .card {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
-    border-radius: 16px;
-    padding: 2rem;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(5px);
+    display: block;
+    /* For anchor tag */
+    text-decoration: none;
+    /* Remove link underline */
+    color: inherit;
+    height: 100%;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    border-color: rgba(255,255,255,0.2);
-    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
-    background: rgba(255, 255, 255, 0.06);
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.05);
 }
 
-.card:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
-    transform: translateX(-100%);
-    transition: 0.5s;
-}
-
-.card:hover:before {
-    transform: translateX(100%);
-}
+/* Removed complex :before hover effect for simplicity */
 
 .card-icon {
-    font-size: 2.5rem;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
     margin-bottom: 1rem;
+    border-radius: 8px;
+    /* Slight rounded corners for icons */
 }
 
 .card h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-main);
 }
 
 .url-preview {
     display: inline-block;
-    background: rgba(0,0,0,0.3);
-    padding: 0.2rem 0.6rem;
-    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
     font-family: monospace;
     color: var(--accent);
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
 }
 
 .card p {
     color: var(--text-muted);
-    font-size: 0.95rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
 .tags {
@@ -265,25 +304,15 @@ main {
 }
 
 .tags span {
-    font-size: 0.8rem;
-    background: rgba(255,255,255,0.05);
-    padding: 0.2rem 0.6rem;
+    font-size: 0.75rem;
+    background: var(--bg);
+    padding: 0.2rem 0.5rem;
     border-radius: 4px;
-    color: #ccc;
+    color: var(--text-muted);
+    border: 1px solid var(--card-border);
 }
 
-.card-link {
-    display: inline-block;
-    margin-top: 0.5rem;
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-
-.card-link:hover {
-    text-decoration: underline;
-}
+/* Removed .card-link styles as the whole card is now a link */
 
 /* Footer */
 footer {
@@ -305,9 +334,11 @@ footer a {
     .header {
         padding: 1.5rem;
     }
+
     .hero {
         padding-top: 4rem;
     }
+
     .grid {
         grid-template-columns: 1fr;
     }

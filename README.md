@@ -18,23 +18,23 @@
 
 | Platform | Subdomain Format | Key Free Tier Limits |
 | :--- | :--- | :--- |
-| **Vercel** | `project.vercel.app` | Commercial use restricted. |
-| **Netlify** | `project.netlify.app` | 100GB Bandwidth/mo. |
-| **Cloudflare Pages** | `project.pages.dev` | Unlimited bandwidth (fair use). Fastest. |
-| **GitHub Pages** | `user.github.io` | Source must be public (for free tier). |
-| **GitLab Pages** | `user.gitlab.io` | Good for private repos. |
-| **Surge** | `project.surge.sh` | CLI only. Basic HTTP. |
+| [**Vercel**](https://vercel.com) | `project.vercel.app` | Commercial use restricted. |
+| [**Netlify**](https://www.netlify.com) | `project.netlify.app` | 100GB Bandwidth/mo. |
+| [**Cloudflare Pages**](https://pages.cloudflare.com) | `project.pages.dev` | Unlimited bandwidth (fair use). Fastest. |
+| [**GitHub Pages**](https://pages.github.com) | `user.github.io` | Source must be public (for free tier). |
+| [**GitLab Pages**](https://about.gitlab.com/stages-devops-lifecycle/pages/) | `user.gitlab.io` | Good for private repos. |
+| [**Surge**](https://surge.sh) | `project.surge.sh` | CLI only. Basic HTTP. |
 
 ## 2. Best for Backend & Full Stack
 **Perfect for:** Node.js, Python, Go, Docker, Databases.
 
 | Platform | Subdomain Format | Key Free Tier Limits |
 | :--- | :--- | :--- |
-| **Render** | `project.onrender.com` | Spins down after 15m inactivity. |
-| **Glitch** | `project.glitch.me` | Public code by default. Sleep mode. |
-| **Fly.io** | `app.fly.dev` | Requires credit card. Generous free details. |
-| **Deno Deploy** | `project.deno.dev` | 100k requests/day. Deno/TS optimized. |
-| **PythonAnywhere** | `user.pythonanywhere.com` | 1 web app. Limited outgoing requests. |
+| [**Render**](https://render.com) | `project.onrender.com` | Spins down after 15m inactivity. |
+| [**Glitch**](https://glitch.com) | `project.glitch.me` | Public code by default. Sleep mode. |
+| [**Fly.io**](https://fly.io) | `app.fly.dev` | Requires credit card. Generous free details. |
+| [**Deno Deploy**](https://deno.com/deploy) | `project.deno.dev` | 100k requests/day. Deno/TS optimized. |
+| [**PythonAnywhere**](https://www.pythonanywhere.com) | `user.pythonanywhere.com` | 1 web app. Limited outgoing requests. |
 
 ## 3. "Cool" Community Domains
 **Perfect for:** Personal portfolios, identities.  
@@ -42,11 +42,11 @@
 
 | Domain | Example | Status | How to Claim |
 | :--- | :--- | :--- | :--- |
-| **is-a.dev** | `name.is-a.dev` | ✅ Active | [Repo](https://github.com/is-a-dev/register) - Add JSON file. |
-| **js.org** | `lib.js.org` | ✅ Strict | [Repo](https://github.com/js-org/js.org) - JS projects only. |
-| **is-a.co** | `name.is-a.co` | ✅ Active | [Repo](https://github.com/is-a-co/register) |
-| **js.cool** | `name.js.cool` | ✅ Active | [Repo](https://github.com/remix-run/react-router) (Concept similar) |
-| **tilde.tk** | `name.tilde.tk` | ⚠️ Unstable | UNIX style. |
+| [**is-a.dev**](https://is-a.dev) | `name.is-a.dev` | ✅ Active | [Repo](https://github.com/is-a-dev/register) - Add JSON file. |
+| [**js.org**](https://js.org) | `lib.js.org` | ✅ Strict | [Repo](https://github.com/js-org/js.org) - JS projects only. |
+| [**is-a.co**](https://is-a.co) | `name.is-a.co` | ✅ Active | [Repo](https://github.com/is-a-co/register) |
+| [**js.cool**](https://js.cool) | `name.js.cool` | ✅ Active | [Repo](https://github.com/remix-run/react-router) (Concept similar) |
+| [**tilde.tk**](https://tilde.tk) | `name.tilde.tk` | ⚠️ Unstable | UNIX style. |
 
 > **Pro Tip:** Don't build a business on community domains. They rely on the owner paying the renewal fee.
 
@@ -55,18 +55,18 @@
 
 | Platform | Subdomain Format | Limits |
 | :--- | :--- | :--- |
-| **Wix** | `user.wixsite.com` | Banner ads. |
-| **WordPress** | `site.wordpress.com` | Limited themes/plugins. |
-| **Carrd** | `site.carrd.co` | 3 sites. "Made with Carrd" branding. |
-| **Webflow** | `site.webflow.io` | 2 pages max. |
+| [**Wix**](https://www.wix.com) | `user.wixsite.com` | Banner ads. |
+| [**WordPress**](https://wordpress.com) | `site.wordpress.com` | Limited themes/plugins. |
+| [**Carrd**](https://carrd.co) | `site.carrd.co` | 3 sites. "Made with Carrd" branding. |
+| [**Webflow**](https://webflow.com) | `site.webflow.io` | 2 pages max. |
 
 ## 5. Legacy / Shared Hosting (PHP & MySQL)
 **Perfect for:** Old-school LAMP stack, WordPress testing.
 
 | Platform | Subdomain Format | Notes |
 | :--- | :--- | :--- |
-| **InfinityFree** | `name.rf.gd` | Unstable. PHP support. |
-| **000webhost** | `name.000webhostapp.com` | Watermarks. Sleep mode. |
+| [**InfinityFree**](https://www.infinityfree.net) | `name.rf.gd` | Unstable. PHP support. |
+| [**000webhost**](https://www.000webhost.com) | `name.000webhostapp.com` | Watermarks. Sleep mode. |
 
 ---
 
